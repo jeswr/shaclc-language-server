@@ -13,7 +13,7 @@
     "languages": [{
       "id": "shaclc",
       "aliases": ["SHACL Compact Syntax", "shaclc"],
-      "extensions": [".shaclc",".shc"],
+      "extensions": [".shaclc",".shc",".shaclce",".shce"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
