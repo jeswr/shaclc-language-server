@@ -1,0 +1,25 @@
+{
+  "name": "shaclc-language-server",
+  "displayName": "shaclc-language-server",
+  "description": "A language server for SHACL Compact Syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "shaclc",
+      "aliases": ["SHACL Compact Syntax", "shaclc"],
+      "extensions": [".shaclc",".shc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "shaclc",
+      "scopeName": "source.shaclc",
+      "path": "./syntaxes/shaclc.tmLanguage.json"
+    }]
+  }
+}
