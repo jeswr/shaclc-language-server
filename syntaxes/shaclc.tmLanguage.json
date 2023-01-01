@@ -38,6 +38,9 @@
     },
     {
       "include": "#pref"
+    },
+    {
+      "include": "#star"
     }
   ],
   "repository": {
@@ -113,6 +116,14 @@
 			"patterns": [
 				{
 					"match": "[+-]?[0-9]+",
+					"name": "constant.numeric"
+				}
+			]
+		},
+		"star": {
+			"patterns": [
+				{
+					"match": "\\*",
 					"name": "constant.numeric"
 				}
 			]
