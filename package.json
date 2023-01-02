@@ -27,7 +27,11 @@
           ".shaclce",
           ".shce"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "dark": "./shacl.svg",
+          "light": "./shacl.svg"
+        }
       }
     ],
     "grammars": [
