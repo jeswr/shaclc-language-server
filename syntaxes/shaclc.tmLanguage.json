@@ -275,7 +275,8 @@
       "patterns": [
         {
           "name": "keyword.control.shaclc",
-          "match": "\\b(shape|shapeClass)\\b"
+          "match": "\\b(shape|shapeClass)\\b",
+					"comment": "A SHACL Constraint"
         }
       ]
     },
