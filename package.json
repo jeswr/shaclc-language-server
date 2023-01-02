@@ -1,6 +1,7 @@
 {
   "name": "shaclc-language-server",
-  "displayName": "shaclc-language-server",
+  "publisher": "jeswr",
+  "displayName": "SHACLC Language Server",
   "description": "A language server for SHACL Compact Syntax",
   "version": "0.0.1",
   "engines": {
